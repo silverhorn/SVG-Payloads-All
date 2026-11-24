@@ -1,0 +1,21 @@
+# Proof-grade targets. Stop at the first file that proves the bug; do not collect secrets.
+
+# Linux (low impact first)
+/etc/hostname
+/etc/os-release
+/proc/version
+/proc/self/cmdline
+/etc/passwd
+
+# Windows
+c:/windows/win.ini
+c:/windows/system32/drivers/etc/hosts
+
+# Schemes worth trying with the same entity
+file://      local files
+http://      SSRF / OOB
+https://     SSRF / OOB
+ftp://       SSRF / OOB (parser dependent)
+php://filter PHP, base64 wrapper avoids XML-breaking characters
+jar:         Java parsers
+netdoc:      Java parsers

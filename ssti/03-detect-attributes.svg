@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="40"
+     id="ssti-id{{7*7}}" class="ssti-class${7*7}" data-x="ssti-data#{7*7}" aria-label="ssti-aria{{7*7}}">
+  <a xlink:href="#" xlink:title="ssti-title{{7*7}}">
+    <rect width="120" height="40" fill="#ccc"/>
+  </a>
+</svg>

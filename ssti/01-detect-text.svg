@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260">
+  <text x="10" y="20">ssti1{{7*7}}ssti1</text>
+  <text x="10" y="45">ssti2${7*7}ssti2</text>
+  <text x="10" y="70"><![CDATA[ssti3<%= 7*7 %>ssti3]]></text>
+  <text x="10" y="95">ssti4#{7*7}ssti4</text>
+  <text x="10" y="120">ssti5*{7*7}ssti5</text>
+  <text x="10" y="145">ssti6@(7*7)ssti6</text>
+  <text x="10" y="170">ssti7{7*7}ssti7</text>
+  <text x="10" y="195">ssti8{{7*'7'}}ssti8</text>
+  <text x="10" y="220">ssti9[[${7*7}]]ssti9</text>
+  <text x="10" y="245">ssti10${{7*7}}ssti10</text>
+</svg>

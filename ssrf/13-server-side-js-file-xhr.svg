@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="60">
+  <text id="o" x="10" y="30" font-size="14"/>
+  <script>
+    try {
+      var x = new XMLHttpRequest();
+      x.open("GET", "file:///etc/hostname", false);
+      x.send();
+      document.getElementById("o").textContent = x.responseText;
+    } catch (e) {
+      document.getElementById("o").textContent = String(e);
+    }
+  </script>
+</svg>

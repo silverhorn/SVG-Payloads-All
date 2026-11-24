@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" width="800" height="60">
+  <text x="10" y="30" font-size="16"><xi:include parse="text" href="file:///etc/hostname"/></text>
+</svg>

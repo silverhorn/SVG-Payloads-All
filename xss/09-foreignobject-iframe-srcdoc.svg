@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150">
+  <foreignObject width="300" height="150">
+    <iframe xmlns="http://www.w3.org/1999/xhtml" srcdoc="&lt;script&gt;alert(document.domain)&lt;/script&gt;"/>
+  </foreignObject>
+</svg>

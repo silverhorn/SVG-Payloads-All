@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="140">
+  <a xlink:href="&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;:alert(document.domain)">
+    <rect width="150" height="60" y="0" fill="#c00"/>
+    <text x="10" y="35" fill="#fff" font-size="14">numeric refs</text>
+  </a>
+  <a xlink:href="jav&#x09;ascript:alert(document.domain)">
+    <rect width="150" height="60" x="160" y="0" fill="#06c"/>
+    <text x="170" y="35" fill="#fff" font-size="14">tab inside</text>
+  </a>
+  <a xlink:href="&#x0A;javascript:alert(document.domain)">
+    <rect width="150" height="60" y="70" fill="#080"/>
+    <text x="10" y="105" fill="#fff" font-size="14">leading newline</text>
+  </a>
+</svg>

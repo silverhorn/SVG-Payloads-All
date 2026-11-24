@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40">
+  <title>ssti-t{{7*7}}${7*7}<![CDATA[<%= 7*7 %>]]>ssti-t</title>
+  <desc>ssti-d{{7*7}}${7*7}#{7*7}ssti-d</desc>
+  <metadata>ssti-m{{7*7}}${7*7}<![CDATA[<%= 7*7 %>]]>ssti-m</metadata>
+  <rect width="120" height="40" fill="#ccc"/>
+</svg>

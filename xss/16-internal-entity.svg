@@ -1,0 +1,5 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg [
+  <!ENTITY handler "alert(document.domain)">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" onload="&handler;"/>

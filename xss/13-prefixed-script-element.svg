@@ -1,0 +1,3 @@
+<s:svg xmlns:s="http://www.w3.org/2000/svg">
+  <s:script>alert(document.domain)</s:script>
+</s:svg>

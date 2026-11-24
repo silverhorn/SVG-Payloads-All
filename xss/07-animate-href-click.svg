@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100">
+  <a>
+    <animate attributeName="href" values="javascript:alert(document.domain)"/>
+    <text x="20" y="55" font-size="18">click me</text>
+  </a>
+</svg>

